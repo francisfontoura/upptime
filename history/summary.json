@@ -2,7 +2,7 @@
   {
     "name": "MongoDB",
     "url": "https://exporters.eciga.consorciociga.gov.br/metrics",
-    "icon": "https://icons.duckduckgo.com/ip3/exporters.eciga.consorciociga.gov.br.ico",
+    "icon": "https://www.mongodb.com/assets/images/global/favicon.ico",
     "slug": "mongodb",
     "status": "up",
     "uptime": "100.00%",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 844,
-    "timeDay": 844,
-    "timeWeek": 844,
-    "timeMonth": 844,
-    "timeYear": 844,
+    "time": 831,
+    "timeDay": 831,
+    "timeWeek": 831,
+    "timeMonth": 831,
+    "timeYear": 831,
     "dailyMinutesDown": {}
   }
 ]
