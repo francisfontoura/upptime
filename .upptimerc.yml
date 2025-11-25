@@ -15,7 +15,7 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.eciga.consorciociga.gov.br
-  baseUrl: /upptime
+  # baseUrl: /upptime
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: e-Ciga Status
   introTitle: e-Ciga Status
