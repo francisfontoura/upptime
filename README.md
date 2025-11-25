@@ -1,4 +1,4 @@
-# [📈 Live Status](https://demo.upptime.js.org): <!--live status--> **🟩 All systems operational**
+# [📈 Live Status](https://demo.upptime.js.org): <!--live status--> **Todos os sistemas estão operacionais**
 
 This repository contains the open-source uptime monitor and status page for [Francis Vagner dos Anjos Fontoura](https://demo.upptime.js.org), powered by [Upptime](https://github.com/upptime/upptime).
 
