@@ -6,6 +6,7 @@ sites:
   - name: MongoDB
     slug: mongodb
     url: https://exporters.eciga.consorciociga.gov.br/metrics
+    icon: https://www.mongodb.com/assets/images/global/favicon.ico
     headers:
       - 'x-api-key: $MONGODB_EXPORTER_API_KEY'
     __dangerous__body_down_if_text_missing: 'mongodb_up{cluster_role="mongod"} 1'
@@ -17,9 +18,9 @@ status-website:
   baseUrl: /upptime
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: e-Ciga Status
-  # introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introTitle: e-Ciga Status
   # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  # navbar:
+  navbar: []
   #   - title: Status
   #     href: /
   #   - title: GitHub
