@@ -1,23 +1,5 @@
 [
   {
-    "name": "MongoDB",
-    "url": "https://exporters.eciga.consorciociga.gov.br/metrics",
-    "icon": "https://www.mongodb.com/assets/images/global/favicon.ico",
-    "slug": "mongodb",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 787,
-    "timeDay": 787,
-    "timeWeek": 787,
-    "timeMonth": 787,
-    "timeYear": 787,
-    "dailyMinutesDown": {}
-  },
-  {
     "name": "Redis",
     "url": "https://exporters.eciga.consorciociga.gov.br/metrics",
     "icon": "https://redis.io/favicon.ico",
@@ -28,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 276,
-    "timeDay": 276,
-    "timeWeek": 276,
-    "timeMonth": 276,
-    "timeYear": 276,
+    "time": 390,
+    "timeDay": 390,
+    "timeWeek": 390,
+    "timeMonth": 390,
+    "timeYear": 390,
     "dailyMinutesDown": {}
   }
 ]
