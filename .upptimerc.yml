@@ -2,7 +2,7 @@ owner: francisfontoura
 repo: upptime
 sites:
   - name: MongoDB
-    slug: mongodb
+    slug: mongo-db
     url: https://exporters.eciga.consorciociga.gov.br/metrics
     icon: https://www.mongodb.com/assets/images/global/favicon.ico
     headers:
