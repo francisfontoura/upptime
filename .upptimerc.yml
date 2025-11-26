@@ -11,7 +11,7 @@ sites:
 status-website:
   cname: status.eciga.consorciociga.gov.br
   css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
-  introTitle: '<img alt="Banner do Status do e-Ciga" src="https://quickchart.io/watermark?mainImageUrl=https://consorciociga.gov.br/wp-content/uploads/2023/09/e-Ciga.png&markImageUrl=https://emoji.aranja.com/emojis/apple/1fac0.png&markRatio=0.14" style="width: 100%">'
+  introTitle: '<img alt="Banner do Status do e-Ciga" src="https://i.postimg.cc/XqyxTDbL/Gemini-Generated-Image-mr8ipjmr8ipjmr8i.png" style="width: 100%">'
   js: setTimeout(() => { document.querySelector('a[href="#ciga-apps"]').outerHTML = '<ciga-apps/>' }, 1000)
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: Status do e-Ciga
