@@ -18,7 +18,6 @@ sites:
 status-website:
   cname: status.eciga.consorciociga.gov.br
   css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
-  introTitle: '<img alt="Banner de Natal do Status do e-Ciga" src="https://i.postimg.cc/NGzRX4c1/Gemini-Generated-Image-x3tsgvx3tsgvx3ts.png" style="width: 100%">'
   js: setTimeout(() => { document.querySelector('a[href="#ciga-apps"]').outerHTML = '<ciga-apps/>' }, 1000)
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: Status do e-Ciga
