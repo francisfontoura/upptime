@@ -16,5 +16,23 @@
     "timeMonth": 806,
     "timeYear": 806,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Redis",
+    "url": "https://exporters.eciga.consorciociga.gov.br/metrics",
+    "icon": "https://redis.io/favicon.ico",
+    "slug": "redis",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 279,
+    "timeDay": 279,
+    "timeWeek": 279,
+    "timeMonth": 279,
+    "timeYear": 279,
+    "dailyMinutesDown": {}
   }
 ]
