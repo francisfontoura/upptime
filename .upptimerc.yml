@@ -14,8 +14,10 @@ status-website:
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: Status do e-Ciga
   navbar:
-     - title: Sistema e-Ciga
-       href: https://gateway.eciga.consorciociga.gov.br
+    - title: Sistema e-Ciga
+      href: https://gateway.eciga.consorciociga.gov.br
+  scripts:
+    - src: https://apps.consorciociga.gov.br/ciga-apps.js
 i18n:
   allSystemsOperational: Todos os sistemas estão operacionais
   averageResponseTime: 'Tempo médio de resposta: $TIMEms'
