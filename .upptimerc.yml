@@ -17,7 +17,7 @@ sites:
     __dangerous__body_down_if_text_missing: 'redis_up 1'
 status-website:
   cname: status.eciga.consorciociga.gov.br
-  css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
+  # css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
   js: setTimeout(() => { document.querySelector('a[href="#ciga-apps"]').outerHTML = '<ciga-apps/>' }, 1000)
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: Status do e-Ciga
