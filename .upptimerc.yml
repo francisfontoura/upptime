@@ -30,4 +30,13 @@ status-website:
 # See https://upptime.js.org/docs/configuration
 i18n:
   allSystemsOperational: Todos os sistemas estão operacionais
-  liveStatus: Estado Ao Vivo
+  averageResponseTime: Tempo médio de resposta: $TIMEms
+  duration1Y: Ano
+  duration24H: Últ. dia
+  duration30D: Mês
+  duration7D: Semana
+  durationAll: Sempre
+  footer: ©2025 [Consórcio de Inovação na Gestão Pública](https://consorciociga.gov.br)
+  liveStatus: Status Ao Vivo
+  locale: pt-BR
+  overallUptime: Tempo de atividade geral: $UPTIME
