@@ -10,19 +10,20 @@ sites:
     __dangerous__body_down_if_text_missing: 'mongodb_up{cluster_role="mongod"} 1'
 status-website:
   cname: status.eciga.consorciociga.gov.br
+  introTitle: ![Banner do Status do e-Ciga](https://quickchart.io/watermark?mainImageUrl=https://consorciociga.gov.br/wp-content/uploads/2023/09/e-Ciga.png&markImageUrl=https://emoji.aranja.com/emojis/apple/2705.png&markRatio=0.14)
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
-  name: e-Ciga Status
+  name: Status do e-Ciga
   navbar:
      - title: Sistema e-Ciga
        href: https://gateway.eciga.consorciociga.gov.br
 i18n:
   allSystemsOperational: Todos os sistemas estão operacionais
   averageResponseTime: 'Tempo médio de resposta: $TIMEms'
-  duration1Y: Ano
-  duration24H: Últ. dia
-  duration30D: Mês
-  duration7D: Semana
-  durationAll: Sempre
+  duration1Y: 1 ano
+  duration24H: 1 dia
+  duration30D: 1 mês
+  duration7D: 1 semana
+  durationAll: Total
   footer: ©2025 [Consórcio de Inovação na Gestão Pública](https://consorciociga.gov.br)
   liveStatus: Status Ao Vivo
   locale: pt-BR
