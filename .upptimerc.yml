@@ -28,14 +28,64 @@ status-website:
   scripts:
     - src: https://apps.consorciociga.gov.br/ciga-apps.js
 i18n:
-  allSystemsOperational: Todos os sistemas estão operacionais
-  averageResponseTime: 'Tempo médio de resposta: $TIMEms'
+  activeIncidents: Incidentes Ativos
+  activeIncidentSummary: Aberto em $DATE com $POSTS atualizações
+  allSystemsOperational: Todos os sistemas operacionais
+  averageResponseTime: "Tempo médio de resposta: $TIMEms"
+  averageResponseTimeTitle: Resposta média
+  degraded: Degradado
+  down: Fora do ar
+  duration: Duração
   duration1Y: 1 ano
-  duration24H: 1 dia
-  duration30D: 1 mês
-  duration7D: 1 semana
-  durationAll: Total
-  footer: ©2025 [Consórcio de Inovação na Gestão Pública](https://consorciociga.gov.br)
-  liveStatus: Status Ao Vivo
+  duration24H: 24h
+  duration30D: 30d
+  duration7D: 7d
+  durationAll: tudo
+  durationMin: $DURATION minutos
+  errorHome: Ir para a página inicial
+  errorIntro: Ocorreu um erro ao tentar obter os detalhes mais recentes do status.
+  errorText: Você pode tentar novamente em alguns instantes.
+  errorTitle: Ocorreu um erro
+  footer: ©2025 [Consórcio de Inovação na Gestão Pública](https://consorciociga.gov.br/)
+  incidentBack: ← Voltar para todos os incidentes
+  incidentClosedAt: Fechado em
+  incidentCommentSummary: Postado em $DATE por $AUTHOR
+  incidentCompleted: Concluído
+  incidentDetails: Detalhes do Incidente
+  incidentFixed: Resolvido
+  incidentOngoing: Em andamento
+  incidentOpenedAt: Aberto em
+  incidentReport: "Relatório do incidente #$NUMBER →"
+  incidentScheduled: Agendado
+  incidentTitle: Detalhes do Incidente $NUMBER
+  incidentViewOnGitHub: Ver e Inscrever-se no GitHub
+  liveStatus: Status em Tempo Real
+  loading: Carregando
   locale: pt-BR
-  overallUptime: 'Tempo de atividade geral: $UPTIME'
+  ms: ms
+  navGitHub: GitHub
+  overallUptime: "Disponibilidade total: $UPTIME"
+  overallUptimeTitle: Disponibilidade total
+  pastIncidents: Incidentes Anteriores
+  pastIncidentsResolved: Resolvido em $MINUTES minutos com $POSTS atualizações
+  pastScheduledMaintenance: Manutenções Agendadas Anteriores
+  rateLimitExceededCopyPastePAT: Copie e cole seu token
+  rateLimitExceededErrorFix: Você pode esperar mais uma hora para que o limite do seu endereço IP seja restaurado. Alternativamente, você pode adicionar seu Token de Acesso Pessoal do GitHub, o que lhe dará 5.000 requisições adicionais por hora.
+  rateLimitExceededErrorHowCanFix: Como posso corrigir isso?
+  rateLimitExceededErrorMeaning: Este site usa a API do GitHub para acessar dados em tempo real sobre o status de nossos sites. Por padrão, o GitHub permite 60 requisições por hora para cada endereço IP, as quais você já consumiu.
+  rateLimitExceededGeneratePAT: Saiba como gerar um Token de Acesso Pessoal
+  rateLimitExceededGitHubPAT: Token de Acesso Pessoal do GitHub
+  rateLimitExceededHasSet: Você tem um token de acesso pessoal configurado.
+  rateLimitExceededIntro: Você excedeu o número de requisições permitidas por hora, então terá que esperar antes de acessar este site novamente. Alternativamente, você pode adicionar um Token de Acesso Pessoal do GitHub para continuar usando este site.
+  rateLimitExceededRemoveToken: Remover token
+  rateLimitExceededSaveToken: Salvar token
+  rateLimitExceededTitle: Limite de requisições excedido
+  rateLimitExceededWhatDoesErrorMean: O que significa este erro?
+  responseTimeMs: Tempo de resposta (ms)
+  scheduledMaintenance: Manutenção Agendada
+  scheduledMaintenanceSummaryStarted: Iniciado em $DATE com duração de $DURATION minutos
+  scheduledMaintenanceSummaryStarts: Inicia em $DATE com duração de $DURATION minutos
+  sevelDayResponseTime: Tempo de resposta (7 dias)
+  startedAt: Iniciado em
+  startsAt: Inicia em
+  up: No ar
