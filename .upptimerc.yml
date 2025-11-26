@@ -1,6 +1,13 @@
 owner: francisfontoura
 repo: upptime
 sites:
+  - name: MongoDB
+    slug: mongodb
+    url: https://exporters.eciga.consorciociga.gov.br/metrics
+    icon: https://www.mongodb.com/assets/images/global/favicon.ico
+    headers:
+      - 'x-api-key: $MONGODB_EXPORTER_API_KEY'
+    __dangerous__body_down_if_text_missing: 'mongodb_up{cluster_role="mongod"} 1'
   - name: Redis
     slug: redis
     url: https://exporters.eciga.consorciociga.gov.br/metrics
@@ -10,7 +17,7 @@ sites:
     __dangerous__body_down_if_text_missing: 'redis_up 1'
 status-website:
   cname: status.eciga.consorciociga.gov.br
-  # css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
+  css: 'nav { overflow-x: visible !important; }'
   js: setTimeout(() => { document.querySelector('a[href="#ciga-apps"]').outerHTML = '<ciga-apps/>' }, 1000)
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: Status do e-Ciga
