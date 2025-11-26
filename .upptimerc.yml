@@ -10,7 +10,7 @@ sites:
     __dangerous__body_down_if_text_missing: 'mongodb_up{cluster_role="mongod"} 1'
 status-website:
   cname: status.eciga.consorciociga.gov.br
-  css: 'nav { overflow-x: visible !important }'
+  css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
   introTitle: '<img alt="Banner do Status do e-Ciga" src="https://quickchart.io/watermark?mainImageUrl=https://consorciociga.gov.br/wp-content/uploads/2023/09/e-Ciga.png&markImageUrl=https://emoji.aranja.com/emojis/apple/1fac0.png&markRatio=0.14" style="width: 100%">'
   js: setTimeout(() => { document.querySelector('a[href="#ciga-apps"]').outerHTML = '<ciga-apps/>' }, 1000)
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
