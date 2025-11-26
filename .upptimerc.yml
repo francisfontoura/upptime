@@ -8,6 +8,13 @@ sites:
     headers:
       - 'x-api-key: $MONGODB_EXPORTER_API_KEY'
     __dangerous__body_down_if_text_missing: 'mongodb_up{cluster_role="mongod"} 1'
+  - name: Redis
+    slug: redis
+    url: https://exporters.eciga.consorciociga.gov.br/metrics
+    icon: https://redis.io/favicon.ico
+    headers:
+      - 'x-api-key: $REDIS_EXPORTER_API_KEY'
+    __dangerous__body_down_if_text_missing: 'redis_up 1'
 status-website:
   cname: status.eciga.consorciociga.gov.br
   css: 'article.up { z-index: -1; } nav { overflow-x: visible !important; }'
