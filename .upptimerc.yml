@@ -5,7 +5,8 @@ sites:
     url: https://e2.ciga.sc.gov.br/graphql
     icon: https://graphql.org/favicon.ico
     method: POST
-    headers: [content-type: application/json]
+    headers:
+      - 'content-type: application/json'
     body: '{"query":"{me{__typename}}"}'
     __dangerous__body_down_if_text_missing: '{"data":{"me":{"__typename":"Publico"}}}'
   - name: MongoDB
