@@ -18,7 +18,7 @@ sites:
 status-website:
   cname: status.eciga.consorciociga.gov.br
   css: 'nav { overflow-x: visible !important; }'
-  js: setTimeout(() => { document.querySelector('a[href="#ciga-apps"]').outerHTML = '<ciga-apps/>'; document.querySelector('ciga-apps').shadowRoot.querySelector('details > div').style = 'z-index\: 1'; }, 1000)
+  js: "setTimeout(() => { document.querySelector('a[href=\"#ciga-apps\"]').outerHTML = '<ciga-apps/>'; document.querySelector('ciga-apps').shadowRoot.querySelector('details > div').style = 'z-index: 1'; }, 1000)"
   logoUrl: https://e2.ciga.sc.gov.br/eciga.webp
   name: Status do e-Ciga
   navbar:
