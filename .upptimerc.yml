@@ -1,17 +1,24 @@
 owner: francisfontoura
 repo: upptime
 sites:
+  - name: API
+    url: https://e2.ciga.sc.gov.br/graphql
+    icon: https://graphql.org/favicon.ico
+    method: POST
+    headers: [content-type: application/json]
+    body: '{"query":"{me{__typename}}"}'
+    __dangerous__body_down_if_text_missing: '{"data":{"me":{"__typename":"Publico"}}}'
   - name: MongoDB
     slug: mongo-db
-    url: https://exporters.eciga.consorciociga.gov.br/metrics
     icon: https://www.mongodb.com/assets/images/global/favicon.ico
+    url: https://exporters.eciga.consorciociga.gov.br/metrics
     headers:
       - 'x-api-key: $MONGODB_EXPORTER_API_KEY'
     __dangerous__body_down_if_text_missing: 'mongodb_up{cluster_role="mongod"} 1'
   - name: Redis
     slug: redis
-    url: https://exporters.eciga.consorciociga.gov.br/metrics
     icon: https://redis.io/favicon.ico
+    url: https://exporters.eciga.consorciociga.gov.br/metrics
     headers:
       - 'x-api-key: $REDIS_EXPORTER_API_KEY'
     __dangerous__body_down_if_text_missing: 'redis_up 1'
