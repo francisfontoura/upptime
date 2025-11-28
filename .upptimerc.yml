@@ -23,6 +23,10 @@ sites:
     headers:
       - 'x-api-key: $REDIS_EXPORTER_API_KEY'
     __dangerous__body_down_if_text_missing: 'redis_up 1'
+  - name: SSO
+    url: https://sso.ciga.sc.gov.br/auth/realms/master
+    icon: https://www.keycloak.org/resources/favicon.svg
+    __dangerous__body_down_if_text_missing: '"realm":"master"'
 status-website:
   cname: status.eciga.consorciociga.gov.br
   css: 'nav { overflow-x: visible !important; }'
