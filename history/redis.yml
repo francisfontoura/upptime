@@ -1,7 +1,7 @@
 url: https://exporters.eciga.consorciociga.gov.br/metrics
-status: up
-code: 200
-responseTime: 236
-lastUpdated: 2026-01-13T23:25:44.229Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2026-01-14T11:30:03.697Z
 startTime: 2025-11-26T16:31:17.315Z
 generator: Upptime <https://github.com/upptime/upptime>
